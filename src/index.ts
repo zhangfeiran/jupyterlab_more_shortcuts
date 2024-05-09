@@ -36,7 +36,7 @@ const plugin: JupyterFrontEndPlugin<void> = {
         const cEditor = (tracker.activeCell?.editor as CodeMirrorEditor);
         var sel = cEditor.getSelections();
         stack.push(sel)
-        if (sel.length==1 && sel[0].start.column==sel[0].end.column)
+        if (sel.length == 1 && sel[0].start.column == sel[0].end.column)
           cEditor.execCommand(selectNextOccurrence)
         cEditor.execCommand(selectSelectionMatches)
       }
@@ -64,7 +64,7 @@ const plugin: JupyterFrontEndPlugin<void> = {
 
       'deleteToLineStart': f.deleteToLineStart,
       'deleteToLineEnd': f.deleteToLineEnd,
-      
+
       'insertNewlineAndIndent': f.insertNewlineAndIndent,
       'insertBlankLine': f.insertBlankLine,
 
