@@ -51,7 +51,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@codemirror/commands@npm:^6.3.3":
+"@codemirror/commands@npm:^6.3.3, @codemirror/commands@npm:^6.5.0":
   version: 6.5.0
   resolution: "@codemirror/commands@npm:6.5.0"
   dependencies:
@@ -4050,6 +4050,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "jupyterlab_more_shortcuts@workspace:."
   dependencies:
+    "@codemirror/commands": ^6.5.0
     "@jupyterlab/application": ^4.0.0
     "@jupyterlab/builder": ^4.0.0
     "@jupyterlab/codemirror": ^4.2.0

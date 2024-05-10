@@ -7,9 +7,9 @@
         "jupyterlab",
         "jupyterlab-extension"
     ],
-    "homepage": "",
+    "homepage": "https://github.com/zhangfeiran/jupyterlab_more_shortcuts",
     "bugs": {
-        "url": "/issues"
+        "url": "https://github.com/zhangfeiran/jupyterlab_more_shortcuts/issues"
     },
     "license": "BSD-3-Clause",
     "author": "Frz",
@@ -23,7 +23,7 @@
     "style": "style/index.css",
     "repository": {
         "type": "git",
-        "url": ".git"
+        "url": "https://github.com/zhangfeiran/jupyterlab_more_shortcuts.git"
     },
     "scripts": {
         "build": "jlpm build:lib && jlpm build:labextension:dev",
@@ -52,6 +52,7 @@
         "watch:labextension": "jupyter labextension watch ."
     },
     "dependencies": {
+        "@codemirror/commands": "^6.5.0",
         "@jupyterlab/application": "^4.0.0",
         "@jupyterlab/codemirror": "^4.2.0",
         "@jupyterlab/notebook": "^4.2.0"
